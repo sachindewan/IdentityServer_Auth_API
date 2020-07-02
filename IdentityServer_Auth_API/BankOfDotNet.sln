@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankOfDotNet", "BankOfDotNet.csproj", "{82A74F3B-12B5-48DA-BB50-A438CE08058E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankOfDotNet.IdentitySvr", "..\BankOfDotNet.IdentitySvr\BankOfDotNet.IdentitySvr.csproj", "{AA00C49F-E575-446E-98C0-5F0E5F3CEC18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcClient", "..\MvcClient\MvcClient.csproj", "{74D1D1DB-EC5D-494C-BD58-2E5E2DB6432A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{82A74F3B-12B5-48DA-BB50-A438CE08058E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82A74F3B-12B5-48DA-BB50-A438CE08058E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82A74F3B-12B5-48DA-BB50-A438CE08058E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA00C49F-E575-446E-98C0-5F0E5F3CEC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA00C49F-E575-446E-98C0-5F0E5F3CEC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA00C49F-E575-446E-98C0-5F0E5F3CEC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA00C49F-E575-446E-98C0-5F0E5F3CEC18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D1D1DB-EC5D-494C-BD58-2E5E2DB6432A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D1D1DB-EC5D-494C-BD58-2E5E2DB6432A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D1D1DB-EC5D-494C-BD58-2E5E2DB6432A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D1D1DB-EC5D-494C-BD58-2E5E2DB6432A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
